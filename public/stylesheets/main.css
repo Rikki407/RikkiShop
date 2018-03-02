@@ -1,0 +1,65 @@
+.img-thumbnail{
+    padding: 0;
+    display: block;
+}
+.img-fluid{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.img-thumbnail{
+    margin: 25px 0;
+}
+.img-thumbnail:hover>.img-fluid{
+    opacity: 0.6;
+}
+.caption:hover{
+    opacity: 1;
+}
+a{
+    color: #212529;
+}
+a:hover{
+    color: #393939;
+}
+h6{
+    margin: 5px;
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 614px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 819px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1058px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/*@media (min-width: 1200px) {*/
+    /*container {*/
+        /*max-width: 1280px;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*container {*/
+        /*max-width: 1280px;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*container {*/
+        /*max-width: 1280px;*/
+    /*}*/
+/*}*/
