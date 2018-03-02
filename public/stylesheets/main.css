@@ -8,10 +8,10 @@
     display: block;
 }
 
-.img-thumbnail{
+.img-hover{
     margin: 25px 0;
 }
-.img-thumbnail:hover>.img-fluid{
+.img-hover:hover>.img-fluid{
     opacity: 0.6;
 }
 .caption:hover{
@@ -26,40 +26,25 @@ a:hover{
 h6{
     margin: 5px;
 }
+
 @media (min-width: 576px) {
-    .container {
+    .show-page {
         max-width: 614px;
     }
 }
 @media (min-width: 768px) {
-    .container {
+    .show-page {
         max-width: 819px;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .show-page {
         max-width: 1058px;
     }
 }
 @media (min-width: 1200px) {
-    .container {
+    .show-page {
         max-width: 1280px;
     }
 }
-
-/*@media (min-width: 1200px) {*/
-    /*container {*/
-        /*max-width: 1280px;*/
-    /*}*/
-/*}*/
-/*@media (min-width: 1200px) {*/
-    /*container {*/
-        /*max-width: 1280px;*/
-    /*}*/
-/*}*/
-/*@media (min-width: 1200px) {*/
-    /*container {*/
-        /*max-width: 1280px;*/
-    /*}*/
-/*}*/
